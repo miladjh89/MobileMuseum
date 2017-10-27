@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="General Setting">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="viewimages"
+            android:title="View Images"
+            android:summaryOn="نمایش تصاویر"
+            android:summaryOff="عدم نمایش تصاویر"
+            />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="User Setting">
+
+    </PreferenceCategory>
+</PreferenceScreen>

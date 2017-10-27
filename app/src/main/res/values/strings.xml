@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Mobile Museum</string>
+    <string name="wellcome">خوش آمدید</string>
+    <string name="get_started">شروع کنید</string>
+    <string name="Main_Menu">منوی اصلی</string>
+    <string name="museum">موزه ها</string>
+    <string name="m1">بقعه شیخ صفی الدین اردبیلی</string>
+    <string name="m2">موزه مردم شناسی</string>
+    <string name="m3">موزه باستان شناسی</string>
+    <string name="m4">موزه صنایع دستی</string>
+    <string name="qrc">QR Code</string>
+    <string name="number">شناسه</string>
+    <string name="map">نقشه</string>
+    <string name="shenase">لطفا شناسه مورد نظر را وارد نمایید :</string>
+    <string name="shearch">جستجو</string>
+    <string name="chini_khane">چینی خانه</string>
+    <string name="shaykh_safi">بقعه شیخ صفی الدین اردبیلی</string>
+    <string name="update">در حال ارتقا ...</string>
+
+</resources>

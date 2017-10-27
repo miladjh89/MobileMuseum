@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.moozemobile.mobilemuseum.M1Activity">
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="307dp"
+        android:layout_height="62dp"
+        android:background="@android:drawable/picture_frame"
+        android:elevation="40dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="25sp"
+        android:text="@string/number"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="307dp"
+        android:layout_height="62dp"
+        android:background="@android:drawable/picture_frame"
+        android:elevation="40dp"
+        android:text="@string/qrc"
+        android:layout_marginTop="177dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/View34"
+        android:layout_width="330dp"
+        android:layout_height="370dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <View
+        android:id="@+id/View8"
+        android:layout_width="341dp"
+        android:layout_height="247dp"
+        android:elevation="-1dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/ic_clipboard"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.003" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="304dp"
+        android:layout_height="85dp"
+        android:elevation="5dp"
+        android:layout_marginTop="85dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="28dp"
+        android:background="@android:drawable/gallery_thumb"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="5dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="@string/m1"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <Button
+        android:id="@+id/button36"
+        android:layout_width="307dp"
+        android:layout_height="62dp"
+        android:background="@android:drawable/picture_frame"
+        android:elevation="40dp"
+        android:text="@string/map"
+        android:layout_marginTop="302dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="25dp"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+</android.support.constraint.ConstraintLayout>
